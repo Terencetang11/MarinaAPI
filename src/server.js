@@ -71,8 +71,8 @@ const { errorMonitor } = require('events');
 const datastore = new Datastore();    // Instantiate a datastore client
 
 // declaring global variables
-const CLIENT_ID = 'qhKhZ8dPQZnEUcEtoJbQQIdZGVYSqopP';
-const CLIENT_SECRET = 'Zv3uavgiu0wXjtDn4jn4NzFPyVzC4vehrwfxgM86jaKjEkllAe8t12GQ_AcgZact';
+const CLIENT_ID = 'YOUR_CLIENT_ID_HERE';
+const CLIENT_SECRET = 'YOUR_CLIENT_SECRET_HERE';
 const DOMAIN = 'cs493-cloud-dev.us.auth0.com';
 const redirect_uri = "https://dev-epsilon-309902.wl.r.appspot.com/auth/auth0";
 const logout_redirect_uri = "https://dev-epsilon-309902.wl.r.appspot.com/auth/welcome";

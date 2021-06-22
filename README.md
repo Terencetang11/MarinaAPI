@@ -33,7 +33,8 @@
     - Requires Google Cloud SDK for gcloud app deployment and datastore mgmt
 
 ## Installation
-Below are the instructions on how to start up a Node.js application for Assignment #9 - Portfoliio Project
+Below are the instructions on how to start up a Node.js application for Assignment #9 - Portfoliio Project.
+Note: As this program utilizes Auth0 as an authentification platform, you will need to provide a client_ID and client_secret for your Auth0 app to utilize this functionality.
 
 * [Setup] - Use npm install - Supplied package.json contains all dependencies needed.
 * [Running locally] - Express server application will run on local host 8080 
